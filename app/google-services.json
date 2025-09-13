@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "321563010760",
+    "project_id": "userregistrationmodel1",
+    "storage_bucket": "userregistrationmodel1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321563010760:android:3372afc6161fbc63d5e7fd",
+        "android_client_info": {
+          "package_name": "com.example.userregistrationmodel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBveCRj0X-wU6rDkRoO6sp4lGPiZxcfpRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

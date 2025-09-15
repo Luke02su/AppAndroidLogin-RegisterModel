@@ -13,9 +13,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:padding="30dp">
+        android:gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
 
         <TextView
             android:id="@+id/textViewRegister"
@@ -43,6 +43,8 @@
             android:hint="@string/e_mail"
             android:textSize="14sp"
             android:background="@drawable/style_email_password_field"
+            android:drawableStart="@drawable/icon_email"
+            android:drawablePadding="10dp"
             android:layout_marginTop="20dp"/>
 
         <EditText
@@ -52,8 +54,10 @@
             android:ems="30"
             android:inputType="textPassword"
             android:hint="@string/password"
-            android:background="@drawable/style_email_password_field"
             android:textSize="14sp"
+            android:background="@drawable/style_email_password_field"
+            android:drawableStart="@drawable/icon_password"
+            android:drawablePadding="10dp"
             android:layout_marginTop="10dp"/>
 
         <Button
@@ -61,6 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sign_up"
+            android:backgroundTint="#424242"
             android:textSize="18sp"
             android:textStyle="normal"
             app:cornerRadius="10dp"

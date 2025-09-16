@@ -1,4 +1,4 @@
-# User Registration Model 🔐
+# Login & Register Model App 🔐📲
 
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin-orange?logo=kotlin)](https://kotlinlang.org/)  
 [![Android Studio](https://img.shields.io/badge/IDE-Android_Studio-brightgreen?logo=android-studio)](https://developer.android.com/studio)  
@@ -8,7 +8,7 @@
 ---
 
 ## Project 🎯
-This Android app provides a **User Registration and Login system** using **Firebase Authentication (Email/Password)**. It includes Login Screen, Register Screen, and Home Dashboard. The app is designed with a **modern, responsive UI**, interactive clickable links, custom drawables, and reusable components. Perfect for learning authentication flows and Android UI best practices.
+This Android app provides a **Login & Register Model App** using **Firebase Authentication (Email/Password)**. It includes Login Screen, Register Screen, and Home Dashboard. The app is designed with a **modern, responsive UI**, interactive clickable links, custom drawables, and reusable components. Perfect for learning authentication flows and Android UI best practices.
 
 ---
 

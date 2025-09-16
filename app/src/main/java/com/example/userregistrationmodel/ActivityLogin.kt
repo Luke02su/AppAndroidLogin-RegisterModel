@@ -25,6 +25,7 @@ class Login : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_login)
 
+        // Start configuration to make 'Sign Up' blue and clickable, redirecting to Register
         val textView = findViewById<TextView>(R.id.textViewHaveAccount)
 
         val fullText = getString(R.string.don_t_have_an_account_sign_up)

@@ -26,7 +26,7 @@ class Register : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_register)
 
-        // Início configuração para deixar 'Sig In' azul e clicável, redirecionando para Login
+        // Start configuration to make 'Sign In' blue and clickable, redirecting to Login
         val textView = findViewById<TextView>(R.id.textViewHaveAccount)
 
         val fullText = getString(R.string.have_an_account_sign_in)
@@ -57,7 +57,7 @@ class Register : AppCompatActivity() {
         textView.text = spannable
         textView.movementMethod = LinkMovementMethod.getInstance()
 
-
+        // Start of FirebaseAuth
         auth = FirebaseAuth.getInstance()
 
         val emailField = findViewById<EditText>(R.id.editTextEmailAddress)
@@ -68,6 +68,12 @@ class Register : AppCompatActivity() {
             val email = emailField.text.toString()
             val password = passwordField.text.toString()
 
+            if (email.isEmpty() || password.isEmpty()) {
+                Toast.makeText(this, "Preencha todos os campos.", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
+            // Autentication inside of Firebase
             auth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener { task ->
                     if (task.isSuccessful) {

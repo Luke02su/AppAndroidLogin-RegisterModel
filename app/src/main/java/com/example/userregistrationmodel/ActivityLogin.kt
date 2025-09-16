@@ -68,7 +68,7 @@ class Login : AppCompatActivity() {
             val password = passwordField.text.toString().trim()
 
             if (email.isEmpty() || password.isEmpty()) {
-                Toast.makeText(this, "Preencha todos os campos.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Please, fill in all fields", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
@@ -76,12 +76,12 @@ class Login : AppCompatActivity() {
             auth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener { task ->
                     if (task.isSuccessful) {
-                        Toast.makeText(this, "Login realizado com sucesso!", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Login successfully!", Toast.LENGTH_SHORT).show()
                         val intent = Intent(this, Home::class.java)
                         startActivity(intent)
                         finish()
                     } else {
-                        Toast.makeText(this, "Erro: ${task.exception?.message}", Toast.LENGTH_LONG).show()
+                        Toast.makeText(this, "Error: ${task.exception?.message}", Toast.LENGTH_LONG).show()
                     }
                 }
         }

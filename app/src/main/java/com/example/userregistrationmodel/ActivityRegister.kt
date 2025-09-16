@@ -69,7 +69,7 @@ class Register : AppCompatActivity() {
             val password = passwordField.text.toString()
 
             if (email.isEmpty() || password.isEmpty()) {
-                Toast.makeText(this, "Preencha todos os campos.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Please, fill in all fields.", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
@@ -77,11 +77,11 @@ class Register : AppCompatActivity() {
             auth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener { task ->
                     if (task.isSuccessful) {
-                        Toast.makeText(this, "Cadastro realizado!", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Registered successfully!", Toast.LENGTH_SHORT).show()
                         startActivity(Intent(this, Login::class.java))
                         finish()
                     } else {
-                        Toast.makeText(this, "Erro: ${task.exception?.message}", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Error: ${task.exception?.message}", Toast.LENGTH_SHORT).show()
                     }
                 }
         }

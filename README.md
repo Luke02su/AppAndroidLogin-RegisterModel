@@ -31,9 +31,9 @@ This Android app provides a **User Registration and Login system** using **Fireb
 - Ready to add **navigation drawer, tabs, or app features**.  
 
 <p align="center">
-   <img width="300" height="600" alt="Login Screen" src="docs/images/login.png" />
-   <img width="300" height="600" alt="Register Screen" src="docs/images/register.png" />
-   <img width="300" height="600" alt="Home Screen" src="docs/images/home.png" />
+   <img width="300" height="600" alt="Login Screen" src="https://github.com/user-attachments/assets/815c2afd-a0bf-43d4-96d4-4e7ed9f6174c" />
+   <img width="300" height="600" alt="Register Screen" src="https://github.com/user-attachments/assets/c2250948-9c00-478d-9653-5e4e6bffc553" />
+   <img width="300" height="600" alt="Home Screen" src="https://github.com/user-attachments/assets/98736a01-f73c-4bb0-9603-00928882e5a8" />
 </p>
 
 ---

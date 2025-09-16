@@ -99,7 +99,7 @@ auth.signInWithEmailAndPassword(email, password)
 - **Development Environment:** Android Studio  
 - **Firebase Authentication:** Email/Password login  
 - **UI Components:** ConstraintLayout, LinearLayout, TextView, EditText, Button  
-- **Custom Drawables:** Rounded rectangle with stroke and padding  
+- **Custom Drawables:** Rounded rectangle with stroke and padding, and icons 24x24 .svg of email and password
 - **Target Platform:** Android Mobile Devices  
 
 ---

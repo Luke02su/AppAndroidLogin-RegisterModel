@@ -1,4 +1,4 @@
-# User Registration Model 🔐
+# Login & Register Model App 🔐📲
 
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin-orange?logo=kotlin)](https://kotlinlang.org/)  
 [![Android Studio](https://img.shields.io/badge/IDE-Android_Studio-brightgreen?logo=android-studio)](https://developer.android.com/studio)  
@@ -8,7 +8,7 @@
 ---
 
 ## Project 🎯
-This Android app provides a **User Registration and Login system** using **Firebase Authentication (Email/Password)**. It includes Login Screen, Register Screen, and Home Dashboard. The app is designed with a **modern, responsive UI**, interactive clickable links, custom drawables, and reusable components. Perfect for learning authentication flows and Android UI best practices.
+This Android app provides a **Login & Register Model App** using **Firebase Authentication (Email/Password)**. It includes Login Screen, Register Screen, and Home Dashboard. The app is designed with a **modern, responsive UI**, interactive clickable links, custom drawables, and reusable components. Perfect for learning authentication flows and Android UI best practices.
 
 ---
 
@@ -31,9 +31,9 @@ This Android app provides a **User Registration and Login system** using **Fireb
 - Ready to add **navigation drawer, tabs, or app features**.  
 
 <p align="center">
-   <img width="300" height="600" alt="Login Screen" src="docs/images/login.png" />
-   <img width="300" height="600" alt="Register Screen" src="docs/images/register.png" />
-   <img width="300" height="600" alt="Home Screen" src="docs/images/home.png" />
+   <img width="300" height="600" alt="Login Screen" src="https://github.com/user-attachments/assets/815c2afd-a0bf-43d4-96d4-4e7ed9f6174c" />
+   <img width="300" height="600" alt="Register Screen" src="https://github.com/user-attachments/assets/c2250948-9c00-478d-9653-5e4e6bffc553" />
+   <img width="300" height="600" alt="Home Screen" src="https://github.com/user-attachments/assets/98736a01-f73c-4bb0-9603-00928882e5a8" />
 </p>
 
 ---
@@ -99,7 +99,7 @@ auth.signInWithEmailAndPassword(email, password)
 - **Development Environment:** Android Studio  
 - **Firebase Authentication:** Email/Password login  
 - **UI Components:** ConstraintLayout, LinearLayout, TextView, EditText, Button  
-- **Custom Drawables:** Rounded rectangle with stroke and padding  
+- **Custom Drawables:** Rounded rectangle with stroke and padding, and icons 24x24 .svg of email and password
 - **Target Platform:** Android Mobile Devices  
 
 ---

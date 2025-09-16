@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UserRegistrationModel</string>
+    <string name="app_name">User Registration Model</string>
     <string name="sign_in">Sign In</string>
     <string name="sign_in_your_account">Sign In your account</string>
     <string name="password">Password</string>

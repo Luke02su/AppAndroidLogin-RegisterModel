@@ -63,7 +63,7 @@ This Android app provides a **User Registration and Login system** using **Fireb
   - Email verification  
   - Social OAuth login (Google, Facebook, etc.)  
 
-**Code register Example**
+**Code register example**
 ```kotlin
 auth.createUserWithEmailAndPassword(email, password)
     .addOnCompleteListener { task ->
@@ -73,6 +73,21 @@ auth.createUserWithEmailAndPassword(email, password)
             finish()
         } else {
             Toast.makeText(this, "Error: ${task.exception?.message}", Toast.LENGTH_SHORT).show()
+        }
+    }
+```
+
+**Code login example**
+```kotlin
+auth.signInWithEmailAndPassword(email, password)
+    .addOnCompleteListener { task ->
+        if (task.isSuccessful) {
+            Toast.makeText(this, "Login realizado com sucesso!", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, Home::class.java)
+            startActivity(intent)
+            finish()
+        } else {
+            Toast.makeText(this, "Erro: ${task.exception?.message}", Toast.LENGTH_LONG).show()
         }
     }
 ```

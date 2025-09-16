@@ -33,10 +33,11 @@ This Android app provides a **Login & Register Model App** using **Firebase Auth
 <p align="center">
    <img width="300" height="600" alt="Login Screen" src="https://github.com/user-attachments/assets/815c2afd-a0bf-43d4-96d4-4e7ed9f6174c" />
    <img width="300" height="600" alt="Register Screen" src="https://github.com/user-attachments/assets/c2250948-9c00-478d-9653-5e4e6bffc553" />
-   <img width="300" height="600" alt="Home Screen" src="https://github.com/user-attachments/assets/98736a01-f73c-4bb0-9603-00928882e5a8" />
+   <img width="300" height="600" alt="Home Screen" src="https://github.com/user-attachments/assets/dcc6cd88-8800-4ad6-8015-7bd637570da1" />
 </p>
 
 ---
+
 
 ## Features ✨
 | Feature | Description |

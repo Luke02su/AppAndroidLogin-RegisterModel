@@ -68,7 +68,7 @@ This Android app provides a **User Registration and Login system** using **Fireb
 auth.createUserWithEmailAndPassword(email, password)
     .addOnCompleteListener { task ->
         if (task.isSuccessful) {
-            Toast.makeText(this, "User registered!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Registered successfully!", Toast.LENGTH_SHORT).show()
             startActivity(Intent(this, Login::class.java))
             finish()
         } else {
@@ -82,7 +82,7 @@ auth.createUserWithEmailAndPassword(email, password)
 auth.signInWithEmailAndPassword(email, password)
     .addOnCompleteListener { task ->
         if (task.isSuccessful) {
-            Toast.makeText(this, "Login realizado com sucesso!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Login successfully!", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, Home::class.java)
             startActivity(intent)
             finish()

@@ -119,6 +119,6 @@ auth.signInWithEmailAndPassword(email, password)
 ```kotlin
 fun main() {
     println("Code by Lucas Samuel Dias!")
-    println("Welcome to the User Registration Model!")
+    println("Welcome to the Login & Register Model App!")
 }
 

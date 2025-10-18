@@ -1,4 +1,4 @@
-# Login & Register Model App 🔐📲
+# Login & Register Model App 🔐📲 (With XML)
 
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin-orange?logo=kotlin)](https://kotlinlang.org/)  
 [![Android Studio](https://img.shields.io/badge/IDE-Android_Studio-brightgreen?logo=android-studio)](https://developer.android.com/studio)  
